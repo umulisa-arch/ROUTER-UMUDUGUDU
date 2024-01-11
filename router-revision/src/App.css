@@ -50,7 +50,8 @@
 .landing{
   /* border: 1px solid rgb(96, 92, 92); */
   padding: 10%;
-  background: linear-gradient(rgb(78, 55, 72), rgb(216, 208, 208))
+  background: linear-gradient(rgb(78, 55, 72), rgb(216, 208, 208));
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);;
 }
 .logomotto{
   display: flex;

@@ -48,7 +48,7 @@ function  Signup  ()  {
     <div className="forgot-password">Forget your password? <span>Click here</span></div>
     <div className="submit-container">
       <div>
-        <button type='submit' className='btn'>Sign Up</button>
+        <button type='submit' className='btn1'>SignUp</button>
 
     </div>
     </div>
