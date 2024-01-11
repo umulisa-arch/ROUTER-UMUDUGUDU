@@ -4,6 +4,7 @@
    margin-left: 150px;
    
    
+   
 }
 .container{
     background-color:white;
@@ -139,28 +140,40 @@ p{
 
 div .loginlink{
     margin: 5px 10px;
-    color: white;
-    border: 2px solid black;
-    width: 20%;
+    color: black;
+    border: 2px solid rgb(247, 237, 237);
+    width: 100%;
     border-radius: 5px;
     padding: 0 5px;
-    height: 30%;
-    background-color: rgb(0, 0, 0);
-    font-size: 30px;
+    height: 70%;
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 15px;
     
     
 }
 div .signuplink{
-    color: white;
-    border: 2px solid black;
-    width: 20%;
+    color: black;
+    border: 2px solid rgb(247, 237, 237);
+    width: 100%;
     margin: -5% 50%;
     border-radius: 5px;
     padding: 0 5px;
-    height: 30%;
-    background-color: black;
-    font-size: 30px;
+    height: 70%;
+    /* background-color: black; */
+    font-size: 15px;
     
+
+}
+
+.loginsignup{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width: 1000px){
+    .loginsignup{
+        /* flex-direction: column; */
+
+    }
 
 }
 .signuplink:hover{

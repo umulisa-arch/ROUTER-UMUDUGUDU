@@ -48,10 +48,16 @@
 
 }
 .landing{
-  border: 2px dashed burlywood;
+  /* border: 1px solid rgb(96, 92, 92); */
   padding: 10%;
+  background: linear-gradient(rgb(78, 55, 72), rgb(216, 208, 208))
 }
 .logomotto{
   display: flex;
   justify-content: space-between;
+}
+@media(max-width:1000px){
+.logomotto{
+  flex-direction: column;
+}
 }
