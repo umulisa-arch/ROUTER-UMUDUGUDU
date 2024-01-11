@@ -10,15 +10,15 @@ function  Login ()  {
         <div className="text">Login </div>
         <div className="underline"></div>
     </div>
-    
+    <div className='username'><label htmlFor="username">Username</label></div>
     <div className="inputs">
-      
       
         <div className="input">
             
             <input type="text" name="username" id="" placeholder='Username...' required/>
 
      </div>
+     <div className='password'><label htmlFor="password">Password</label></div>
      
      <div className="input">
         

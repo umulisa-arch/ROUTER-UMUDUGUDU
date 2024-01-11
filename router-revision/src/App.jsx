@@ -6,12 +6,18 @@ function App() {
 
   return (
     <>
-    <h1>Welcome to Umudugudu-Hub system</h1>
-    <h2>This is the system that help the village <br />
-       leader to collect info about their villagers and 
-       then communicate to them accrodingly</h2>
-       <h2>Login to continue with us or login if you laready have an account</h2>
+    <div className="landing">
+      <div className="logomotto">
+    <div><img className="logo" src="/images/logo2.png" alt="" /></div>
+    <div><img className="motto" src="/images/motto.png" alt="" /></div>
+    </div>
+    <h1>Welcome to Umudugudu-Hub </h1>
+    <h2>Our system goal is help you to <br /> share information
+        faster and easier!</h2>
+       <h2>Sign Up to continue with us or login <br /> if you already have an account</h2>
     <div><Home/></div>
+
+    </div>
       </>
   )
 }

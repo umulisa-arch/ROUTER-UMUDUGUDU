@@ -10,29 +10,34 @@ function  Signup  ()  {
         <div className="underline"></div>
     </div>
     
+    <div className='names'><label htmlFor="names">Names</label></div>
     <div className="inputs">
       
       
         <div className="input">
             
-            <input type="text" name="username" id="" placeholder='Names...' required/>
+            <input type="text" name="names" id="" placeholder='Names...' required/>
 
      </div>
+     <div className='user'><label htmlFor="username">Username</label></div>
      <div className="input">
             
             <input type="text" name="username" id="" placeholder='Username...' required/>
 
      </div>
+     <div className='email'><label htmlFor="email">Email</label></div>
      <div className="input">
             
-            <input type="text" name="username" id="" placeholder='Email...' required/>
+            <input type="email" name="email" id="" placeholder='Email...' required/>
 
      </div>
+     <div className='password'><label htmlFor="password">Password</label></div>
      <div className="input">
             
-            <input type="text" name="username" id="" placeholder='Password...' required/>
+            <input type="password" name="password" id="" placeholder='Password...' required/>
 
      </div>
+     <div className='confirmpassword'><label htmlFor="confirmpassword">Confirm password</label></div>
      
      <div className="input">
         

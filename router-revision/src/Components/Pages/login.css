@@ -29,6 +29,28 @@ body{
     width: 100%;
     margin-top: 30px;
 }
+.names{
+    text-align: left;
+    margin: -2% 10%;
+}
+ .confirmpassword{
+    text-align: left;
+    margin: -5% 10%;
+}
+.password, .email{
+    text-align: left;
+    margin: -5% 10%;
+}
+.user{
+    text-align: left;
+    margin: -5% 10%;
+}
+
+
+.username{
+    text-align: left;
+    margin: -2% 10%;
+}
 .text{
     color: black;
     font-size: 48px;
@@ -39,7 +61,7 @@ body{
     /* margin-top: 5px; */
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
     
 
 }
@@ -57,6 +79,7 @@ body{
     width: 400px;
     height: 40px;
     margin: 50px;
+    border-radius: 5px;
 }
 .forgot-password{
     padding-left: 62px;
@@ -85,9 +108,9 @@ button{
 }
 .newimage{
     width: 500px;
-    height: 553px;
+    height: 530px;
     
-    background-color: rgb(62, 58, 58);
+    background-color: #4D2D4A;
     background-image: url(/loginform/src/Components/Assets/divimage.jpeg);
     margin-top: 50px;
     margin-left: -50px;
@@ -101,9 +124,9 @@ p{
 }
 .newdiv{
     width: 500px;
-    height: 865px;
+    height: 778px;
     
-    background-color: rgb(62, 58, 58);
+    background-color: #4D2D4A;
     background-image: url(/loginform/src/Components/Assets/divimage.jpeg);
     margin-top: 50px;
     margin-left: -50px;

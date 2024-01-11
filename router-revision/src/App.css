@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+.motto{
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+}
+.landing{
+  border: 2px dashed burlywood;
+  padding: 10%;
+}
+.logomotto{
+  display: flex;
+  justify-content: space-between;
+}
