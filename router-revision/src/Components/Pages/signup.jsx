@@ -3,7 +3,14 @@ import React from 'react'
 function  Signup  ()  {
   return (
     <div className="mainlogin">
-    <div className='container'>
+        <div className="newdiv">
+      <h1 className='welcome'>Welcome to Umudugudu-Hub Sign Up  Page</h1>
+      <p className='welcome'>
+        Please create account  to continue with the system
+      </p>
+      
+    </div>
+    <div className='container1'>
     <form action="#" method='GET'>
     <div className="header">
         <div className="text">Sign Up </div>
@@ -45,7 +52,7 @@ function  Signup  ()  {
 
      </div>
     </div>
-    <div className="forgot-password">Forget your password? <span>Click here</span></div>
+    <div className="forgot-password">Already have an account? <a href="login"><span>Click here to login</span></a></div>
     <div className="submit-container">
       <div>
         <button type='submit' className='btn1'>SignUp</button>
@@ -54,13 +61,7 @@ function  Signup  ()  {
     </div>
     </form>
     </div>
-    <div className="newdiv">
-      <h1>Welcome to Umudugudu-Hub Sign Up  Page</h1>
-      <p>
-        Please log into the system in order to continue with us
-      </p>
-      
-    </div>
+  
     </div>
   )
 }

@@ -4,6 +4,13 @@ import './Login.css';
 function  Login ()  {
   return (
     <div className="mainlogin">
+       <div className="newimage">
+      <h1 className='welcome'>Welcome to Umudugudu-Hub Login Page</h1>
+      <p className='welcome'>
+        Please log into the system in order to continue with us
+      </p>
+      
+    </div>
     <div className='container'>
     <form action="#" method='GET'>
     <div className="header">
@@ -27,6 +34,7 @@ function  Login ()  {
      </div>
     </div>
     <div className="forgot-password">Forget your password? <span>Click here</span></div>
+    <div className="forgot-password">Don't have account? <a href="signup"><span>Click here to Sign Up</span></a></div>
     <div className="submit-container">
       <div>
         <button type='submit' className='btn'>Login</button>
@@ -35,13 +43,7 @@ function  Login ()  {
     </div>
     </form>
     </div>
-    <div className="newimage">
-      <h1>Welcome to Umudugudu-Hub Login Page</h1>
-      <p>
-        Please log into the system in order to continue with us
-      </p>
-      
-    </div>
+   
     </div>
   )
 }

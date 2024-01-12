@@ -1,7 +1,7 @@
 .mainlogin{
     display: flex;
     justify-content: start;
-   margin-left: 150px;
+   margin-left: 50px;
    
    
    
@@ -10,13 +10,43 @@
     background-color:white;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: auto;
     
     margin-top: 200px;
-    padding-bottom: 30px;
     margin: 50px;
+    margin-left: -5px;
     
+}
+@media(max-width:1025px){
+    .mainlogin{
+        flex-direction: column;
+    }
+    .container{
+        border: 1px solid pink;
+    }
+    .container1{
+        border: 1px solid pink;
+
+    }
+    body{
+        background-color: white;
+    }
+
+
+}
+.container1{
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    margin: auto;
+    
+    margin-top: 200px;
+    
+    margin: 50px;
+    margin-left: -5px;
+
 }
 body{
     background-color: #F2EFE4;
@@ -53,7 +83,7 @@ body{
     margin: -2% 10%;
 }
 .text{
-    color: black;
+    color: #4D2D4A;
     font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
@@ -118,12 +148,12 @@ button{
 }
 .newimage{
     width: 500px;
-    height: 530px;
+    height: 560px;
     
     background-color: #4D2D4A;
-    background-image: url(/loginform/src/Components/Assets/divimage.jpeg);
+    background-image: url(../Pages/divimage.jpeg);
     margin-top: 50px;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 }
 .newimage h1, p{
     color: white;
@@ -134,12 +164,13 @@ p{
 }
 .newdiv{
     width: 500px;
-    height: 778px;
+    height: 736px;
     
     background-color: #4D2D4A;
-    background-image: url(/loginform/src/Components/Assets/divimage.jpeg);
+    background-image: url(../Pages/divimage.jpeg);
+    
     margin-top: 50px;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 
 }
 .newdiv h1, p{
